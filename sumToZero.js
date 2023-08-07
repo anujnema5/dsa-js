@@ -5,7 +5,7 @@ function sumZero(arr) {
     while (right > left) {
         let sum = arr[left] + arr[right];
 
-        if (sum ==0) {
+        if (sum == 0) {
             console.log([arr[left], arr[right]]);
             return [arr[left], arr[right]]
         }
